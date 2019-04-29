@@ -1,0 +1,19 @@
+.list__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+  
+  &:hover::after {
+  content: "";
+  width: auto;
+  height: 2px;
+  display: block;
+  border-bottom: 3px solid $list-link-accent;
+  padding-bottom: 0.625rem;
+  }
+  
+  &:hover {
+    color: $list-link-accent;
+  }
+}

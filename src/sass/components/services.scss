@@ -1,0 +1,41 @@
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services {
+  &__item {
+    display: flex;
+  }
+
+  &__icon--wrp {
+    width: $row;
+    text-align: center;
+  }
+
+  &__icon {
+    $s: 2rem;
+    width: $s;
+    height: $s;
+    margin: 0 auto;
+    fill: #95e1d3;
+  }
+
+  &__title {
+    font-size: 0.875rem;
+    font-family: $main-font-stack;
+    text-transform: uppercase;
+    width: $col;
+    padding-bottom: 1.25rem;
+  }
+
+  &__description {
+    font-size: 0.9375rem;
+    font-family: $roboto-font;
+    color: rgb(153, 153, 153);
+  }
+
+  &__description:not(:nth-child(n + 4)) {
+    padding-bottom: 6.5625rem;
+  }
+}

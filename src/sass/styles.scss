@@ -1,0 +1,36 @@
+/*
+   Import partials below
+*/
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'normalize';
+@import 'helpers/base';
+@import 'fonts';
+
+/* components */
+@import 'components/container';
+@import 'components/columns';
+@import 'components/container-fluid';
+@import 'components/header';
+@import 'components/header__nav';
+@import 'components/list__link';
+@import 'components/list__item';
+@import 'components/icons';
+@import 'components/header__titles';
+@import 'components/header__btn';
+@import 'components/main__titles';
+@import 'components/services';
+@import 'components/team__description';
+@import 'components/team__titles';
+@import 'components/team__members';
+@import 'components/member__img';
+@import 'components/member__name';
+@import 'components/member__pos';
+@import 'components/card__modal';
+@import 'components/member__img--wrp';
+@import 'components/card__icons--wrp';
+@import 'components/icons__btn';
+@import 'components/footer';
+@import 'components/form';
+@import 'components/input';
+@import 'components/copyright';

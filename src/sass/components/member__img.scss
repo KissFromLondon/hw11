@@ -1,0 +1,12 @@
+.member {
+  &__img {
+    width: 23.75rem;
+    height: 29.375rem;
+  }
+
+  &__img--wrp {
+    margin-bottom: 1.875rem;
+    position: relative;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,10 @@
+$cols: 3, 4, 5, 6;
+$column: col3, col4, col5, col6;
+@mixin generate-cols($cols){ 
+@each $column in $cols {
+    .#{$column}-item {
+  width: calc(#{$col} * $cols);
+    }
+}
+}
+

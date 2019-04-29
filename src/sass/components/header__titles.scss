@@ -1,0 +1,18 @@
+.header__titles {
+    text-align: center;
+    padding-top: 6rem;
+  }
+  
+  .header__sub {
+    font-size: 3.5rem;
+    font-family: $kaushan-font;
+    color: $header-titles-white;
+  }
+  
+  .header__main {
+      font-size: 7rem;
+      font-family: $main-font-stack;
+      color: $header-titles-white;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
