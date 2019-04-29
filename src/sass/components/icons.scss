@@ -1,16 +1,15 @@
 .icons {
     display: flex;
     justify-content: space-between;
-  }
   
-  .icons__link:nth-child(1) {
+  &__link:nth-child(1) {
     padding-right: 4rem;
   }
   
-  .icons__link svg{
+  &__link svg{
     $s: 1.25rem;
     fill: #fff;
     width: $s;
     height: $s;
   }
-  
+}

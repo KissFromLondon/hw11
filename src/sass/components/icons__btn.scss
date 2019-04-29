@@ -1,27 +1,19 @@
-.icons {
-&__btn {
-    $s: 3.4375rem;
-    height: $s;
-    width: $s;
-    background-color: $list-link-accent;
-    border: none;
-    cursor: pointer;
-    display: inline-block;
-  }
-  
-  &__btn--img {
-    width: 100%;
-    height: 1.625rem;
-    margin: 0 auto;
-    margin-top: 0.9375rem;
-    fill: #f38181;
-  }
-  
-  &__btn:hover {
-    background-color: #f38181;
-  }
-  
-  &__btn:hover .icons__btn--img {
-    fill: #fff;
-  }
+.icons__btn {
+  height: 55px;
+  width: 55px;
+  background-color: #fce38a;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+
+&--img {
+  width: auto;
+  height: 26px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+&:hover {
+  background-color: #f38181;
+}
 }

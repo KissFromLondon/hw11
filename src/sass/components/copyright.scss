@@ -1,9 +1,9 @@
 .copyright {
-    font-size: 0.875rem;
-    font-family: $main-font-stack;
-    color: $main-black;
-  }
+  font-size: 0.875rem;
+  font-family: $main-font-stack;
+  color: $main-black;
 
-.copyright__colored {
+  &__colored {
     color: #f38181;
   }
+}

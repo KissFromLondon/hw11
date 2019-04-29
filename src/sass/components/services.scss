@@ -1,9 +1,7 @@
 .services {
   display: flex;
   flex-wrap: wrap;
-}
-
-.services {
+  
   &__item {
     display: flex;
   }

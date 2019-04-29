@@ -1,16 +1,15 @@
 .list__item {
-    $s: 2rem;
-    height: 1.5625rem;
-    display: inline-block;
-    padding-right: $s;
-    padding-left: $s;
-  }
-  
-  .list__item:nth-child(1) {
+  $s: 2rem;
+  height: 1.5625rem;
+  display: inline-block;
+  padding-right: $s;
+  padding-left: $s;
+
+  &:nth-child(1) {
     padding-left: 0;
   }
-  
-  .list__item:nth-child(5) {
+
+  &:nth-child(5) {
     padding-right: 0;
   }
-  
+}
